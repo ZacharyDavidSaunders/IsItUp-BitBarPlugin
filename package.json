@@ -1,0 +1,25 @@
+{
+  "name": "isitup.bitbar-plugin",
+  "version": "1.0.0",
+  "description": "A MacOs Menu Bar (BitBar) plugin that allows you to check whether or not a website is currently up.",
+  "main": "isItUp.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZacharyDavidSaunders/IsItUp-BitBarPlugin.git"
+  },
+  "keywords": [
+    "bitbar",
+    "macOs",
+    "plugin",
+    "isitdown"
+  ],
+  "author": "ZacharyDavidSaunders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZacharyDavidSaunders/IsItUp-BitBarPlugin/issues"
+  },
+  "homepage": "https://github.com/ZacharyDavidSaunders/IsItUp-BitBarPlugin#readme"
+}

@@ -4,17 +4,17 @@
 // <bitbar.version>v1.0</bitbar.version>
 // <bitbar.author>Zachary David Saunders</bitbar.author>
 // <bitbar.author.github>ZacharyDavidSaunders</bitbar.author.github>
-// <bitbar.desc>A MacOs Menu Bar (BitBar) plugin that allows you to check whether or not a website is currently up.</bitbar.desc>
+// <bitbar.desc>A MacOs Menu Bar (BitBar) plugin that allows you to check whether or not a website is currently up (online).</bitbar.desc>
 // <bitbar.dependencies>node.js</bitbar.dependencies>
-// <bitbar.image></bitbar.image>
+// <bitbar.image>https://i.imgur.com/BxHFJMn.png</bitbar.image>
 
 
 
 //👋👋👋 Feel free to change the following varaibles to best suit your needs.
-var upMessage = '✅ (Yes!)';
-var unknownMessage = '⚠️ (Error, click me for details)';
-var downMessage = '🔥 (No!)';
-var website = "github.com";
+var upMessage = '✅(Yes)';
+var unknownMessage = '⚠️(Error, click for details)';
+var downMessage = '🔥(No)';
+var website = "www.google.com";
 
 //<--- DO NOT EDIT THE CODE BELOW THIS LINE. --->
 
@@ -37,13 +37,15 @@ function renderPlugin(){
     }
     if(getMessage(status) === unknownMessage){
       console.log("---");
-      console.log("ERROR: I was unable to contact \""+ website+"\".");
-      console.log("Please verify that you entered it correctly (remember, you don't need a www/http/https prefix).");
+      console.log("ERROR: Unable to contact \""+ website+"\".");
+      console.log("Please verify that you entered the websute correctly (remember, you don't need a www/http/https prefix).");
       console.log("If this problem persists, isitdown.site's API may be unavailable. ☹️");
     }
     console.log("---");
-    console.log("Powered by \"isitdown.site\". [Click to visit site] |href=https://isitdown.site");
-    console.log("For more information, please see the github repository. [Click to visit site] |href=https://github.com/ZacharyDavidSaunders/IsItUp-BitBarPlugin")
+    console.log("Powered by \"isitdown.site\". [Click to visit site] |href=https://isitdown.site color:green");
+    console.log("For more information please see the github repository. [Click to visit site] |href=https://github.com/ZacharyDavidSaunders/IsItUp-BitBarPlugin color:green")
+    console.log("---");
+    console.log("(© Zachary David Saunders 2018) | size:10");
   });
 }
 

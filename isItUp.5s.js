@@ -9,15 +9,16 @@
 // <bitbar.image>https://i.imgur.com/BxHFJMn.png</bitbar.image>
 
 
+/*jshint esversion: 6 */
+
+
 
 //👋👋👋 Feel free to change the following varaibles to best suit your needs.
 var upMessage = '✅(Yes)';
 var unknownMessage = '⚠️(Error, click for details)';
 var downMessage = '🔥(No)';
 var website = "www.google.com";
-
 //<--- DO NOT EDIT THE CODE BELOW THIS LINE. --->
-
 
 
 
@@ -43,7 +44,7 @@ function renderPlugin(){
     }
     console.log("---");
     console.log("Powered by \"isitdown.site\". [Click to visit site] |href=https://isitdown.site color:green");
-    console.log("For more information please see the github repository. [Click to visit site] |href=https://github.com/ZacharyDavidSaunders/IsItUp-BitBarPlugin color:green")
+    console.log("For more information please see the github repository. [Click to visit site] |href=https://github.com/ZacharyDavidSaunders/IsItUp-BitBarPlugin color:green");
     console.log("---");
     console.log("(© Zachary David Saunders 2018) | size:10");
   });

@@ -32,14 +32,14 @@ function renderPlugin(){
     if(status === "up"){
       console.log(menuBarIcon+" |color:green");
       console.log("---");
-      console.log("Visit \""+website+"\". [Click to visit site] |href="+website);
+      console.log("Visit \""+website+"\". [Click to visit site] |href=https://"+website);
     }else if (status === "down"){
       console.log(menuBarIcon+" |color:red");
     }else{
       console.log(menuBarIcon+" |color:yellow");
       console.log("---");
       console.log("Error: Unable to contact \""+ website+"\".");
-      console.log("Please verify that you entered the websute correctly (remember, you don't need a www/http/https prefix).");
+      console.log("Please verify that you entered the website correctly (remember, you don't need a www/http/https prefix).");
       console.log("If this problem persists, isitdown.site's API may be unavailable.");
     }
 
